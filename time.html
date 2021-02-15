@@ -1,0 +1,19 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<p id="demo">
+		</p>
+		<script type="text/javascript">
+			function currentTime() {
+				var d = new Date();
+				var h = d.getHours();
+				var m = d.getMinutes();
+
+				document.getElementById("demo").innerHTML = h + ":" + m;
+			}
+			currentTime();
+		</script>
+
+	</body>
+</html>
